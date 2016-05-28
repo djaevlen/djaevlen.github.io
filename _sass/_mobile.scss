@@ -1,0 +1,323 @@
+// *****************************************************
+// ******************* 1440px **************************
+// *****************************************************
+
+@media screen and (max-width: 1440px) {
+
+
+
+ }
+
+// *****************************************************
+// ******************* 1280px Height *******************
+// *****************************************************
+
+@media screen and (max-width: 1280px) {
+
+
+
+ }
+
+ // ******************* 800px Height *******************
+// *****************************************************
+
+@media screen and (max-height: 800px) {
+
+
+	
+
+}
+
+// *****************************************************
+// ******************* 750px Height ********************
+// *****************************************************
+
+@media screen and (max-height: 750px) {
+
+
+
+ }
+
+
+
+
+
+ // *****************************************************
+// ******************* 1220px ***************************
+// *****************************************************
+@media screen and (max-width: 1200px) {
+
+
+
+}
+
+
+
+
+// *****************************************************
+// ******************* 991px ***************************
+// *****************************************************
+@media screen and (max-width: 992px) {
+
+	
+	
+
+
+
+ }
+
+ // ****************************************************
+// ******************* 768px ***************************
+// *****************************************************
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+// *****************************************************
+// ******************* 480px ***************************
+// *****************************************************
+
+@media screen and (max-width: 480px) {
+	
+
+	.left-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		height: auto;
+		padding: 30px;
+		.headline-box, .contact-box {
+			position: relative;
+			top: auto;
+        	left: auto;	
+        	right: auto;
+        	bottom: auto;
+        	h1 {
+				line-height: 0.9;
+				margin-top: 10px;
+				font-size: 40px;
+
+        	}
+        	h2 {
+        		font-size: 20px;
+        	}
+        	h4 {
+        		font-size: 16px;
+        		line-height: 1.2;
+        		margin-bottom: 30px;
+        	} 
+		}
+		.contact-box {
+			margin-bottom: 20px;
+			.text {
+				display: none;
+			}
+		}
+
+	}
+
+	.right-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		right: auto;
+		height: auto;
+		padding: 30px;
+		.projects {
+			.list {
+				padding-bottom: 0px;
+				ul {
+					-webkit-column-count: 1;
+					-moz-column-count: 1;
+					column-count: 1;
+				}
+			}
+		}
+
+		.merge {
+			width: 100%;
+		}
+		
+	}
+
+	.modal {
+	    .modal-body {
+	        .left {
+            	width: 100%;
+	            position: relative;
+	            top: auto;
+	            left: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: right;
+	            h2 {
+	            	font-size: 24px;
+	            	word-break: break-all;
+	            }
+	            h3 {
+	            	font-size: 18px;
+	            	margin-bottom: 20px;
+	            }
+	            p {
+	            	font-size: 14px;
+	            }
+	            .tech {
+	            	position: relative;
+	            	bottom: auto;
+	            	left: auto;
+	            }
+	        }
+	        .right {
+	            width: 100%;
+	            position: relative;
+	            top: auto;
+	            right: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: left;
+	        }
+	    }
+	    
+	}
+
+
+ }
+
+ // ****************************************************
+// ******************* 320px ***************************
+// *****************************************************
+
+@media screen and (max-width: 320px) {
+
+	.left-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		height: auto;
+		padding: 30px;
+		.headline-box, .contact-box {
+			position: relative;
+			top: auto;
+        	left: auto;	
+        	right: auto;
+        	bottom: auto;
+        	h1 {
+				line-height: 0.9;
+				margin-top: 10px;
+				font-size: 40px;
+
+        	}
+        	h2 {
+        		font-size: 20px;
+        	}
+        	h4 {
+        		font-size: 16px;
+        		line-height: 1.2;
+        		margin-bottom: 30px;
+        	} 
+		}
+		.contact-box {
+			margin-bottom: 20px;
+			.text {
+				display: none;
+			}
+		}
+
+	}
+
+	.right-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		right: auto;
+		height: auto;
+		padding: 30px;
+		.projects {
+			.list {
+				padding-bottom: 0px;
+				ul {
+					-webkit-column-count: 1;
+					-moz-column-count: 1;
+					column-count: 1;
+				}
+			}
+		}
+
+		.merge {
+			width: 100%;
+		}
+		
+	}
+
+	.modal {
+	    .modal-body {
+	        .left {
+            	width: 100%;
+	            position: relative;
+	            top: auto;
+	            left: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: right;
+	            h2 {
+	            	font-size: 24px;
+	            	word-break: break-all;
+	            }
+	            h3 {
+	            	font-size: 18px;
+	            	margin-bottom: 20px;
+	            }
+	            p {
+	            	font-size: 14px;
+	            }
+	            .tech {
+	            	position: relative;
+	            	bottom: auto;
+	            	left: auto;
+	            }
+	        }
+	        .right {
+	            width: 100%;
+	            position: relative;
+	            top: auto;
+	            right: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: left;
+	        }
+	    }
+	    
+	}
+
+
+	
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+	
+	
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+	
+
+ }
+

@@ -1,0 +1,25 @@
+<div class="modal-body">
+	
+	
+	<div class="left">
+		<h2><a href="http://{{project.name}}" target="_blank">{{project.name}}</a></h2>
+		<h3>{{project.type}}</h3>
+		<p ng-bind-html="project.content"></p>
+		<div class="tech">
+			<h4>technologies used</h4>
+			<p>{{project.tags}}</p>
+		</div>
+	</div>
+
+	<div class="right">
+		<div class="image1">
+			<img ng-src="/assets/{{project.images.image1}}" alt="">
+		</div>
+		<div class="image2">
+			<img ng-src="/assets/{{project.images.image2}}" alt="">
+		</div>
+	</div>
+
+
+	
+</div>
