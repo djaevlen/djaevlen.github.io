@@ -36,7 +36,7 @@ var app = angular.module('michael', ['ui.bootstrap', 'ngSanitize'])
 
     $scope.project = project;
 
-    $scope.ok = function () {
+    $scope.close = function () {
         $uibModalInstance.close();
     };
 

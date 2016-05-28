@@ -211,6 +211,20 @@
                     margin-bottom: 10px;
                 }
             }
+            .close {
+                display: none;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    path {
+                        fill: $grey;
+                    }
+                }
+
+            }
             
         }
         .right {
