@@ -2,8 +2,8 @@
 	{
 		"name": 	"earthcontrol.dk",
 		"type": 	"WordPress",
-		"content": 	"Earth Control er en af Danmarks største producent af nødder og tørret frugt. De har i mange år heddet System Frugt. Efter at have kørt uden markedsføring i mange år, havde de besluttet at markedsføre dem selv med en rebranding.<br/><br/>Hjemmesiden er lige nu version 2.0. Den først version blev kodet i 2013. Version 2.0 er blevet kodet i 2015. <br/><br/>Hjemmesiden blev kodet i WordPress med eget hjemmebygget tema. Der er registeret 5 forskellige CPT’er, som repræsentere hver deres varegruppe. Administrationsområdet er blevet gjort brugervenligt med ACF. Udover de normale ACF felter, er der også brugt flexible content til at bygge nyhedsside og normale sider.<br/><br/>Der er også blevet brugt Facebook API til at hente prædefineret Facebook posts baseret på deres Post ID. Response JSON’en er derefter blevet stylet til matche den visuelle identitet.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Earth Control is one of Denmark's largest producer of nuts and dried fruit. They have for many years been called “System Frugt”. After running without marketing for many years, they had decided to market themselves with a rebranding. <br/> <br/> The website is now version 2.0. The first version was coded in 2013 also be me. The second version was coded in 2015. <br/> <br/>The website was built in WordPress with our own home-built theme. There are registered 5 different CPT's which represent their own product groups. The administration area has been made ​​user-friendly with ACF. Besides the normal ACF fields, there is also used ACF’s flexible content editor to build new pages and normal pages with blocks. <br/> <br/> There is used Facebook API to retrieve predefined Facebook posts based on their Post ID. The response JSON has then been styled to match the visual identity.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, JSON, ANGULAR, PHP",
 		"images": {
 			"image1": 	"ec1.png",
 			"image2": 	"ec2.png"
@@ -12,8 +12,8 @@
 	{
 		"name": 	"thecolorrun.dk",
 		"type": 	"WordPress",
-		"content": 	"The Color Run er Danmarks mest farverige 5 km løb. Deres tidligere hjemmeside var et købe tema opsat i WordPress. Da man ønskede at hjemmesiden gerne skulle ligne hovedsiden thecolorrun.com, fik vi til opgave at “klone” hovedsidens design til den danske.<br/><br/>Hjemmesiden har pt. 4 sprog og der kan tilføjes flere. Alle sider er bygget op med ACF’s flexible content editor. Der er også blevet brugt en del ACF felter til styre forskellige indstillinger, som f.eks. night mode, hvor hele siden bliver inverted med sort baggrund.<br/><br/>Der er også tilføjet en modal, som popper op når bruger er i gang med forlade hjemmesiden.<br/><br/>Samt er der også brugt Instagram API til at hente de seneste 9 billeder fra en bestemt hashtag.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"The Color Run is Denmark's most colorful 5 km run. Their previous website was a bought pre-made theme in WordPress. With the new website they wanted the website to resemble the main page thecolorrun.com. Therefore we were asked to clone the main page design to the new Danish website. <br/> <br/> The new website has currently 4 languages ​​and more can be added. All pages are built with ACF's flexible content editor. It has also extra  ACF options fields to control various settings such as: “night mode” where the entire page will be inverted with an black background and night mode stylesheet. <br/> <br/> There was also added a modal, which pops up when the user is leaving the homepage. <br/> <br/> And finally there were used Instagram API to retrieve the last 9 images from a particular hashtag per language.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, JSON, ANGULAR, PHP",
 		"images": {
 			"image1": 	"tcr1.png",
 			"image2": 	"tcr2.png"
@@ -22,8 +22,8 @@
 	{
 		"name": 	"rby.dk",
 		"type": 	"WordPress",
-		"content": 	"Ruby Cocktail bar er en meget prestigefyldt cocktail og drinks bar i København, som skulle bruge en ny hjemmeside. Deres tidligere hjemmeside var en ren Flash side, som ikke var mobilvenlig.<br/><br/>En af kravene var man kunne reservere bord. Det er blevet løst med et modificeret plugin ved navn: Restaurant Reservations. Der er blevet tilføjet ekstra felter, samt ekstra styling af dato og tid popup. I administrationsområdet kan man godkende og afvise reservationer.<br/><br/>Selve designet er lidt atypisk, så der er blevet brugt en del <code>position: fixed;</code>.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Ruby Cocktail bar is a very prestigious cocktail and drinks bar in Copenhagen. They were in need of a new website, since their previous website was a pure Flash page, which was not mobile friendly at all. <br/> <br/> One of the requirements was to be able to reserve a table. That was resolved with a modified plugin named: Restaurant Reservations. Extra fields was added and extra styling of the date and time popup. In the administration area you can approve or reject reservations. <br/> <br/> The design is somewhat atypical, so <code> position: fixed; </ code> was used at lot. ",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"rby1.png",
 			"image2": 	"rby2.png"
@@ -32,8 +32,8 @@
 	{
 		"name": 	"filmakademiet.dk",
 		"type": 	"WordPress",
-		"content": 	"Danmarks Film Akademi er en organisation, som står for Robert Prisen og har til formål at fremme filmen som selvstændig kunstart.<br/><br/>De havde brug for en ny hjemmeside med en ny visuel identitet. En af hoved funktionaliteterne var at medlemmerne skulle have adgang til en privat side hvor de kunne opdatere deres medlemsoplysninger. Udover det skal man også kunne tilmelde en film til tre film kategorier.<br/><br/>I administrationsområdet kan man se en oversigt over medlemmer. Her kan man godkende og rette medlemmer som har ansøgt om at blive medlem. Alle medlemmer er synkroniseret med Mailchimp, så de alle kan modtage nyhedsbreve. <br/><br/>Der er brugt ACF til at styre slider og diverse indstillinger.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"The Danish Film Academy is an organization that runs and controls the Robert award and aims to promote film as an independent art form. <br/> <br/> They needed a new website with a new visual identity. One of the main functionalities was that members should have access to a private area of the site, where they could update their membership information. In addition people could also sign up their own films to be considered for a Robert award. <br/> <br/> In the administration area you can see a list of members. Here you can approve and edit members who have applied for a membership. All members are synchronized with Mailchimp, so they can all receive newsletters. <br/> <br/>There are used ACF option fields to control the slider and various settings.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, JSON, PHP",
 		"images": {
 			"image1": 	"dfa1.png",
 			"image2": 	"dfa2.png"
@@ -42,8 +42,8 @@
 	{
 		"name": 	"hansons.dk",
 		"type": 	"WordPress",
-		"content": 	"Hansons.dk er et firma som specialisere sig i flere områder indenfor ejendomsservice. Blandt andet graffitirens. De havde en tidligere hjemmeside, som var lavet med en template maskine fra et andet firma. De havde derfor ikke særlig meget magt over at kunne skifte tekster eller billeder. Mange af tekster var også billeder, så søgemaskinerne kunne ikke indekser teksterne. <br/><br/>Vi rådgav dem til at få implementere deres nuværende design over til en WordPress installation. Så denne opgave var en simpel HTML-til-WordPress opgave. <br/><br/>Der er blevet tilføjet ekstra funktionaliteter, som før/efter billeder med hånd slider, forbedret kontakt form med fil upload, slider med rene tekster.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Hansons.dk is a company who specialize in several areas of property services, among other is cleaning graffiti. They had a previous site which was made ​​with a template machine from another company. They had therefore not very much control over texts areas or images. Many of the texts areas were also images, so that search engines could not index the text areas. <br/> <br/> We therefore advised them to implement their current design to a WordPress installation. So this task was a simple HTML-to-WordPress task. <br/> <br/> There has been added extra functionality like: before/after photos with drag slider, improved contact form with file upload and slider with text areas.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"hans1.png",
 			"image2": 	"hans2.png"
@@ -52,8 +52,8 @@
 	{
 		"name": 	"handing.dk",
 		"type": 	"WordPress",
-		"content": 	"Handing.dk er et firma som specialisere i at sælge nyt/brugt udstyr til mejerier eller andre virksomheder, som bearbejder væsker. De havde en gammel WordPress installation, som ikke er blevet opdateret i mange år. De var meget opsat på at beholde det gamle design, så det fik de. <br/><br/>Den store opgave lå dog i at lave et plugin, som kunne importere 1500 varenummer fra en CSV fil generet fra C5 regnskabsprogram og fordele den på 5 forskellige sprog via WPML.<br/><br/>Pluginet har sin egen brugerflade, hvor man uploader en fil. Derefter kan man sætte den i gang med at importere. Man kan monitorere forløbet via en progress bar, som bliver opdateret via et AJAX-kald hvert minut. Man kan også vælge at slette produkterne og rense ud kataloget.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Handing.dk is a company which specialize in selling new / used equipment for dairies or other companies who process fluids. They had an old WordPress installation, which had not been updated in many years. They were very keen to retain the old design, so they got to keep that. <br/> <br/> The big assignment was, however, to make a plugin that could import 1500 products from a CSV file generated from the C5 accounting program and distribute it in 5 different languages ​​via WPML. <br/> <br/> The plugin has its own interface, where you can upload a CSV file and begin the import process. You can also monitor the import progress via a progress bar, which is updated with an AJAX call that calls every 1 minute. You can also choose to delete the products and clean out the catalog.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, JSON, CSV, PHP",
 		"images": {
 			"image1": 	"han1.png",
 			"image2": 	"han2.png"
@@ -62,8 +62,8 @@
 	{
 		"name": 	"motorhistorisk.dk",
 		"type": 	"WordPress",
-		"content": 	"Motorhistorisk Samråd er en organisation, som varetager alle veteranklubber og veteran nummerplader i hele Danmark. Deres tidligere hjemmeside var en gammel Joomla side. De havde brug for en hjemmeside, som var mere brugervenlig og hvor de havde bedre mulighed for at tilføje nyt indhold. <br/><br/>Der er oprettet adskillige CPT’er, som alle er styret af ACF felter. Ud over det er der også blevet kodet en avanceret bestillingsformular, som oprettet en CPT hver gang et medlem bestiller en nummerplade. Denne CPT kan man derefter tilføje ekstra info til og dermed generere en PDF baseret på alt indhold. Denne PDF kan dermed downloades og sendes til Skat.<br/><br/>Til sidst er der også bruge Instagram og Facebook API’er til at hente indlæg og billeder ned.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Motorhistorisk Samråd is an organization that handles all veteran clubs and veteran license plates throughout Denmark. Their previous website was an old Joomla page. They needed a site that was more user-friendly and where they had a better opportunity to create and add new content. <br/> <br/> There was created several CPT'er, all of which are controlled by the ACF fields. In addition there was also coded an advanced booking form, which created a CPT every time a member orders a licenses plate. The CPT can then be added additional information. You can also generate a PDF based on the total content, which can be downloaded and sent to Skat. <br/> <br/> Finally I also used Instagram and Facebook APIs to retrieve posts and images.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"mhs1.png",
 			"image2": 	"mhs2.png"
@@ -72,8 +72,8 @@
 	{
 		"name": 	"jagtnettet.dk",
 		"type": 	"WordPress",
-		"content": 	"Jagtnettet er lille virksomhed, som annoncere kurser indenfor jagt og naturliv. Hjemmeside skal fungere som et katalog, hvor bruger kan navigere rundt i og direkte kontakte udbyderen af kurserne via en kontakt form.<br/><br/>En af hoved funktionaliteterne er et filter, hvor man kan filtrere sin søgning efter ens ønsker. Der gælder alt fra dato, weekend, sted og pris.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Jagtnettet is a small business that advertise courses in hunting and wildlife. The website will serve as a catalog where the user can navigate and directly contact the provider of the courses through a contact form. <br/> <br/> One of the main functionalities was a filter where you can filter the search for a course. It applies to everything from date, weekend, place and price.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"jagt1.png",
 			"image2": 	"jagt2.png"
@@ -82,8 +82,8 @@
 	{
 		"name": 	"mermaidprojektet.dk",
 		"type": 	"WordPress",
-		"content": 	"Mermaid Projektet er en selvejende institution, som identificerer, finansierer og leder banebrydende internationale projekter inden for gynækologisk kræftforskning.<br/><br/>Deres tidligere hjemmeside var en Joomla side, hvor kunden havde svært ved at opdatere og genere nyt indhold. Derfor faldt valget på at konvertere den om til en WordPress hjemmeside. Hjemmesiden var hellere ikke mobilvenlig. <br/><br/>Der blev også opryddet i designet og tilføjet en footer med Mailchimp tilmeldingsform.<br/><br/>Under historie blev der også lavet en visuel tidslinje, som fortæller udviklingen af institutionen.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"The Mermaid Project is an independent institution that identifies and finances groundbreaking international projects in the field of gynecologic cancer research. <br/> <br/> Their previous website was a Joomla page where the client had difficulties when updating and generating new content. Therefore, they chose to convert it into a WordPress website. The website was also not mobile friendly. <br/> <br/> We cleaned up the design and added a footer with a Mailchimp subscription form. <br/> <br/> On the page with their history we also made ​​a visual timeline that tells the development of the institution.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"mer1.png",
 			"image2": 	"mer2.png"
@@ -92,8 +92,8 @@
 	{
 		"name": 	"innologic.dk",
 		"type": 	"WordPress",
-		"content": 	"Innologic er det største danskbaserede konsulenthus med 100% fokus på SAP Business Intelligence (BI).<br/><br/>Hjemmeside er en standard profil-hjemmeside, som har en del undersider med hver deres branche- og arbejdsområde. Den har også en oversigt over kunder, en blog og en nyhedsoversigt.<br/><br/>Under hver side er der også en kontakt formular. ",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Innologic is the largest Danish-based consultancy with 100% focus on SAP Business Intelligence (BI). <br/> <br/> The website is a standard profile site which has subpages with their area of industry and work. It also has a list of customers, a blog and a news summary. <br/> <br/> There is a contact form under each page.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"inno1.png",
 			"image2": 	"inno2.png"
@@ -102,8 +102,8 @@
 	{
 		"name": 	"rosendahls-begravelse.dk",
 		"type": 	"WordPress",
-		"content": 	"Rosendals begravelse er et begravelse virksomhed som har afdelinger fordelt over hele Nordsjælland.<br/><br/>De havde en gammel Joomla hjemmeside, men havde brug for en mere brugervenlig hjemmeside, så valget faldt på en WordPress hjemmeside. Hjemmeside er en standard profil-hjemmeside, som har en del undersider med hver deres produkt.<br/><br/>Der er også en oversigt over afdelinger med kontakt info. ",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Rosendahls begravelse is a funeral company that has offices throughout Nordsjælland. <br/> <br/> They had an old Joomla website, but needed a more user-friendly website, so the choice fell on a WordPress website. The website is a standard profile site with subpages on their products. <br/> <br/> There is also a list of locale offices with contact info.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"rosen1.png",
 			"image2": 	"rosen2.png"
@@ -112,8 +112,8 @@
 	{
 		"name": 	"beruf.dk",
 		"type": 	"WordPress",
-		"content": 	"Min nuværende arbejdsplads havde brug for en ny hjemmeside, så vi gik i gang med at udarbejde hvad vi skulle lave. Vi endte på at lave en fullpage slider på vores to fokusområder: Hjemmesider og AdWords. Og så alm. sider på de normale undersider.<br/><br/>Hjemmesiden har også en blog, som bruger jQuery pluginet MixItUp til at sortere i kategorier.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"My current workplace needed a new website, so we brainstormed on what we should do. We ended up making a full page slider on our two focus areas: Websites and AdWords. The rest of the websites had normal subpages. <br/> <br/> The website has a blog, which uses jQuery plugin MixItUp to sort the posts into categories.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"beruf1.png",
 			"image2": 	"beruf2.png"
@@ -122,11 +122,31 @@
 	{
 		"name": 	"cheche.dk",
 		"type": 	"WordPress",
-		"content": 	"CheChe er et mindre konsulentbureau, der er specialiseret i konference- og mødehåndtering. Hjemmesiden er simpel profil hjemmeside med specielt lavet jQuery animation.<br/><br/>Hjemmesiden har også 2 sprog.",
-		"tags": 	"HTML5, CSS3, PHP, JQUERY",
+		"content": 	"Cheche is a small consulting firm that specializes in conference and meeting management. The website is a simple profile website with specialmade ​​jQuery animation. <br/> <br/> The site has two languages.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP",
 		"images": {
 			"image1": 	"che1.png",
 			"image2": 	"che2.png"
+		}
+	},
+	{
+		"name": 	"mimer.io",
+		"type": 	"NodeJS",
+		"content": 	"Mimer.io is a SaaS product that customers can use in conjunction with their Google Analytics data. With Mimer.io you can create dashboards with widgets to visualize your data in a grid. You can drag around and resize these widgets. Theses dashboards can also be converted into reports that can be sent to email recipients that are defined on a list. There are also premade dashboards and widgets for easier creation. <br/> <br/>The whole backend system is built with ExpressJS. On the frontend, AngularJS is used to built a fully functional one page web application. AngularJS uses API endpoints defined by ExpressJS. Theses endpoints delivers a JSON response with data belonging to the current logged in user. <br/> <br/>The authentication are handled by ExpressJS. An administration area has been built to manage and create new users or accounts. Here you can also create new premade dashboards and widgets.",
+		"tags": 	"HTML5, CSS3, BOOTSTRAP, JQUERY, ANGULAR, <br />JSON, NODEJS, EXPRESSJS, GULP, HEROKU",
+		"images": {
+			"image1": 	"mimer1.png",
+			"image2": 	"mimer2.png"
+		}
+	},
+	{
+		"name": 	"djaevlen.github.io",
+		"type": 	"Jekyll",
+		"content": 	"My portfolio is made with Jekyll. Is was a learning experience for me and i learned a lot from it. It's all custom made HTML and CSS3, with no use of a CSS framework. <br /><br />The source code can be viewed here: <a href=\"https://djaevlen.github.io/\">Github</a>",
+		"tags": 	"HTML5, CSS3, ANGULAR, JSON, JEKYLL",
+		"images": {
+			"image1": 	"port1.png",
+			"image2": 	"port2.png"
 		}
 	}
 ]

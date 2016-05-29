@@ -55,12 +55,104 @@
 
 
 // *****************************************************
-// ******************* 991px ***************************
+// ******************* 1024px **************************
 // *****************************************************
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 
 	
-	
+			.left-content {
+
+
+				
+				.headline-box {
+
+					top: 50px;
+					left: 50px;
+					
+		        	h1 {
+						font-size: 50px;
+		        	}
+		        	h2 {
+		        		font-size: 20px;
+		        	}
+		        	h4 {
+		        		font-size: 16px;
+		        	} 
+				}
+				.contact-box {
+					right: 50px;
+					bottom: 50px;
+					height: 50px;
+					.text {
+						
+					}
+				}
+
+			}
+
+			.right-content {
+				padding: 50px;
+				.headline {
+					h3 {
+						font-size: 16px;
+					}
+				}
+				.projects {
+					.list {
+						padding-bottom: 20px;
+						ul {
+							-webkit-column-count: 2;
+							-moz-column-count: 2;
+							column-count: 2;
+						}
+					}
+				}
+
+				.merge {
+					width: 50%;
+				}
+				
+			}
+
+			.modal {
+			    .modal-body {
+			        .left {
+		            	padding: 40px;
+		            	overflow: auto;
+			            h2 {
+			            	font-size: 38px;
+			            	word-break: break-all;
+			            }
+			            h3 {
+			            	margin-bottom: 20px; 
+			            }
+			            p {
+			            	
+			            }
+			            .tech {
+			            	position: relative;
+			            	bottom: auto;
+			            	left: auto;
+			            }
+			            .close {
+			                
+			            }
+			        }
+			        .right {
+			            padding: 40px;
+			            .close {
+			                position: absolute;
+			                top: 20px;
+			                right: 20px;
+			                svg {
+			                    width: 15px;
+			                    height: 15px;
+			                }
+		                }
+			        }
+			    }
+			    
+			}
 
 
 
@@ -72,7 +164,111 @@
 
 @media screen and (max-width: 768px) {
 
+	.left-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		height: auto;
+		padding: 30px;
+		.headline-box, .contact-box {
+			position: relative;
+			top: auto;
+        	left: auto;	
+        	right: auto;
+        	bottom: auto;
+        	h1 {
+				line-height: 0.9;
+				margin-top: 10px;
+				font-size: 40px;
 
+        	}
+        	h2 {
+        		font-size: 20px;
+        	}
+        	h4 {
+        		font-size: 16px;
+        		line-height: 1.2;
+        		margin-bottom: 30px;
+        	} 
+		}
+		.contact-box {
+			margin-bottom: 20px;
+			.text {
+				display: none;
+			}
+		}
+
+	}
+
+	.right-content {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		right: auto;
+		height: auto;
+		padding: 30px;
+		.projects {
+			.list {
+				padding-bottom: 20px;
+				ul {
+					-webkit-column-count: 2;
+					-moz-column-count: 2;
+					column-count: 2;
+				}
+			}
+		}
+
+		.merge {
+			width: 50%;
+		}
+		
+	}
+
+	.modal {
+	    .modal-body {
+	        .left {
+            	width: 100%;
+	            position: relative;
+	            top: auto;
+	            left: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: right;
+	            h2 {
+	            	font-size: 24px;
+	            	word-break: break-all;
+	            	width: 80%;
+	            }
+	            h3 {
+	            	font-size: 18px;
+	            	margin-bottom: 20px;
+	            }
+	            p {
+	            	font-size: 14px;
+	            }
+	            .tech {
+	            	position: relative;
+	            	bottom: auto;
+	            	left: auto;
+	            }
+	            .close {
+	                display: block;
+	            }
+	        }
+	        .right {
+	            width: 100%;
+	            position: relative;
+	            top: auto;
+	            right: auto;
+	            padding: 20px;
+	            height: auto;
+	            float: left;
+	        }
+	    }
+	    
+	}
 
 }
 
@@ -219,6 +415,7 @@
         	}
         	h2 {
         		font-size: 20px;
+
         	}
         	h4 {
         		font-size: 16px;
@@ -273,6 +470,7 @@
 	            h2 {
 	            	font-size: 24px;
 	            	word-break: break-all;
+	            	width: 80%;
 	            }
 	            h3 {
 	            	font-size: 18px;

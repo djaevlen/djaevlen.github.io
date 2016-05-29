@@ -130,10 +130,11 @@
                 -moz-column-count: 2;
                 column-count: 2;
                 li {
-                    text-decoration: underline;
-                    &:hover {
-                        cursor: pointer;
-
+                    span {
+                        text-decoration: underline;
+                        &:hover {
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -251,6 +252,20 @@
                     bottom: 0px;
                     margin-top: 30px;
                 }
+            }
+            .close {
+                
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+
             }
         }
     }
