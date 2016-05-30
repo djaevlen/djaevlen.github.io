@@ -176,13 +176,15 @@
             top: 0px;
             left: 0px;
             background: $white;
-            padding: 100px;
+            padding: 50px;
+            overflow: auto;
             h2 {
                 color: $grey;
                 font-size: 48px;
                 font-weight: bold;
                 text-transform: uppercase;
                 margin-bottom: 10px;
+                word-break: break-all;
                 a {
                    color: $grey; 
                    &:focus, &:hover {
@@ -203,8 +205,9 @@
                 font-size: 16px;
             }
             .tech {
-                position: absolute;
-                bottom: 100px;
+                position: relative;
+                bottom: auto;
+                left: auto;
                 h4 {
                     font-size: 18px;
                     text-transform: uppercase;
